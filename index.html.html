@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Aula - Página Completa</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #8b3a4e;
+            color: #5c2d3e;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: transparent;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h3 {
+            margin-top: 0;
+        }
+
+        .list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .list li {
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 2.6rem;
+        }
+
+        /* Título CECyT 14 con cuadro */
+        .title-cecyt {
+            background-color: #5c2d3e;
+            color: #ffffff;
+            font-size: 4.5rem; /* Título más grande */
+            text-transform: uppercase;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+            margin: 0;
+        }
+
+        /* Estilo para las secciones de dos columnas (Evaluación y Portafolios) */
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
+            gap: 20px;
+        }
+        .two-column .section {
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Título CECyT 14 dentro de un cuadro -->
+    <div class="title-cecyt">
+        CECyT 14
+    </div>
+
+    <div class="container">
+        <!-- Título Proyecto Aula -->
+        <h1>Proyecto Aula</h1>
+
+        <!-- Fundamentos del Proyecto de Aula -->
+        <div class="content">
+            <div class="section">
+                <h3>1. Fundamentos del Proyecto de Aula</h3>
+                <p><strong>Origen y propósito:</strong> Surge como respuesta a los lineamientos del Modelo Educativo Institucional para Nivel Medio Superior, basándose en principios de Educación Basada en Competencias. Busca promover una nueva cultura académica mediante el trabajo interdisciplinario y colaborativo, reemplazando métodos tradicionales con enfoques centrados en el aprendizaje del estudiante.</p>
+                <p><strong>Base teórica:</strong> Fundamentado en el constructivismo, considera al aprendizaje como un proceso activo en el que los estudiantes construyen sus conocimientos integrando experiencias previas y nuevos conceptos.</p>
+                <ul>
+                    <li>La importancia no radica solo en el resultado final, sino en los razonamientos desarrollados durante el proceso.</li>
+                    <li>Este enfoque promueve la generalización del conocimiento y su aplicación en diferentes contextos.</li>
+                </ul>
+                <p><strong>Rol del docente:</strong> El docente asume funciones de moderador, facilitador y mediador, promoviendo la participación activa del estudiante.</p>
+                <p><strong>Objetivo principal:</strong> Formar alumnos autónomos y responsables de su aprendizaje, capaces de reflexionar y reorganizar sus conocimientos mediante el trabajo interdisciplinario, colaborativo y orientado a proyectos.</p>
+                <p><strong>Metodología:</strong></p>
+                <ul>
+                    <li>Integra conocimientos de diferentes asignaturas para resolver problemas o proyectos multidisciplinarios.</li>
+                    <li>Promueve la vinculación entre teoría y práctica, considerando los intereses del estudiante.</li>
+                    <li>Enfatiza el aprendizaje significativo y la formación integral del estudiante.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Metodología de Operación -->
+        <div class="content">
+            <div class="section">
+                <h3>2. Metodología de Operación</h3>
+                <ul class="list">
+                    <li><strong>Primera etapa:</strong> Planeación inicial:
+                        <ul>
+                            <li>Reunión de directivos, jefes de área y coordinadores para planificar y realizar un diagnóstico FODA.</li>
+                            <li>Informar a los profesores asignados al Proyecto Aula sobre su rol.</li>
+                            <li>Identificar competencias y redactar una matriz que relacione aprendizajes con temas seleccionados.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Segunda etapa:</strong> Planeación didáctica:
+                        <ul>
+                            <li>Elaboración de la planeación didáctica y el plan de evaluación.</li>
+                            <li>Definición de instrumentos de evaluación y estrategias.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Tercera etapa:</strong> Selección del tema:
+                        <ul>
+                            <li>Presentación de temas sugeridos y elección de un tema para guiar el proyecto.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Cuarta etapa:</strong> Desarrollo del proyecto:
+                        <ul>
+                            <li>Diseño del cronograma y elaboración del protocolo del proyecto.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Quinta etapa:</strong> Ejecución y seguimiento:
+                        <ul>
+                            <li>Implementación de actividades y reuniones de seguimiento.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Sexta etapa:</strong> Consolidación y cierre:
+                        <ul>
+                            <li>Presentación de los proyectos a la comunidad escolar y evaluación integral.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Evaluación del Proyecto y de los Aprendizajes - Dos Columnas -->
+        <div class="content two-column">
+            <div class="section">
+                <h3>3. Evaluación del Proyecto y de los Aprendizajes</h3>
+                <p><strong>Importancia:</strong> La evaluación mide el grado de cumplimiento de los objetivos y ajusta estrategias de enseñanza y aprendizaje.</p>
+                <ul>
+                    <li><strong>Diagnóstica:</strong> Identifica conocimientos previos y habilidades necesarias.</li>
+                    <li><strong>Formativa:</strong> Retroalimenta durante el proceso para mejorar estrategias.</li>
+                    <li><strong>Sumativa:</strong> Valora el desempeño global al final del proyecto.</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h3>3.1. Herramientas de Evaluación</h3>
+                <ul>
+                    <li><strong>Proyectos y ensayos:</strong> Producidos por los estudiantes durante el proyecto.</li>
+                    <li><strong>Rúbricas y listas de cotejo:</strong> Para asegurar la objetividad en la evaluación.</li>
+                    <li><strong>Guías de observación:</strong> Para evaluar el proceso de aprendizaje en tiempo real.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Portafolios de Evidencias - Dos Columnas -->
+        <div class="content two-column">
+            <div class="section">
+                <h3>4. Portafolios de Evidencias</h3>
+                <p><strong>Definición:</strong> Recopilación organizada de productos y registros que documentan el aprendizaje del estudiante.</p>
+                <ul>
+                    <li><strong>Para estudiantes:</strong> Contiene datos del alumno, plan de evaluación y evidencias organizadas cronológicamente.</li>
+                    <li><strong>Para docentes:</strong> Incluye planeaciones, seguimiento y retroalimentación.</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h3>4.1. Ventajas y Propósito</h3>
+                <ul>
+                    <li><strong>Ventajas:</strong> Fomenta la reflexión, permite que los estudiantes asuman la responsabilidad de su aprendizaje y proporciona al docente herramientas estructuradas para evaluar el progreso.</li>
+                    <li><strong>Propósito:</strong> Integrar aprendizaje, evaluación y retroalimentación en un proceso continuo.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Instrumentos para Evaluar y Generar Evidencias -->
+        <div class="content">
+            <div class="section">
+                <h3>5. Instrumentos para Evaluar y Generar Evidencias</h3>
+                <p><strong>Instrumentos utilizados por el docente:</strong></p>
+                <ul>
+                    <li><strong>Guías de observación:</strong> Describen los aspectos a observar durante la ejecución de actividades.</li>
+                    <li><strong>Listas de cotejo:</strong> Comparan características esperadas con los resultados observados.</li>
+                    <li><strong>Cuestionarios:</strong> Herramientas estructuradas con preguntas abiertas o cerradas que evalúan conocimientos conceptuales.</li>
+                </ul>
+                <p><strong>Instrumentos generados por los estudiantes:</strong></p>
+                <ul>
+                    <li><strong>Entrevistas personales:</strong> Conversaciones dirigidas que permiten evaluar conocimientos o habilidades mediante la interacción directa.</li>
+                    <li><strong>Ejercicios prácticos:</strong> Actividades simuladas en las que los estudiantes demuestran sus habilidades en contextos controlados.</li>
+                    <li><strong>Estudios de caso:</strong> Análisis de situaciones reales o ficticias para evaluar la capacidad de aplicar conocimientos y resolver problemas.</li>
+                    <li><strong>Juegos de roles:</strong> Representaciones prácticas en las que los estudiantes asumen roles específicos para resolver problemas o enfrentar escenarios hipotéticos.</li>
+                    <li><strong>Bitácoras:</strong> Registros detallados de actividades realizadas, fomentando la reflexión y la autorregulación.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Metas y Resultados Esperados -->
+        <div class="content">
+            <div class="section">
+                <h3>6. Metas y Resultados Esperados</h3>
+                <p><strong>Metas principales del Proyecto Aula:</strong></p>
+                <ul>
+                    <li>Promover el desarrollo integral de los estudiantes mediante la adquisición de competencias cognitivas, sociales y actitudinales.</li>
+                    <li>Fomentar la colaboración y la autonomía en el proceso de aprendizaje.</li>
+                    <li>Reducir índices de reprobación sin comprometer la calidad educativa.</li>
+                    <li>Fortalecer el aprendizaje significativo y la integración de conocimientos.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+
